@@ -36,4 +36,5 @@ This will stop the server, check to see if an update is available, install the u
 Some of the included scripts are either modified or original examples from [Minecraft's Gamepedia article on Linux server update scripts](https://minecraft.gamepedia.com/Tutorials/Linux_server_update_script)
 
 `/updatemc.sh` was modified slightly
+
 `/updatemcjar.sh` is original as of 28/06/2020
