@@ -14,7 +14,9 @@ Then run the following commands as root
 simply rebooting the server will update the game to the lastest jar, but if you do not wish to do that, you can use the following commands instead
 
 ## Update server
-`/startup.sh`
+`sudo /updatemc.sh`
+
+This will stop the server, check to see if an update is available, install the update, then start the server again. You do not need to stop the server before running this.
 
 ## Stop server
 `sudo systemctl stop minecraft`
