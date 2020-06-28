@@ -3,6 +3,11 @@ Linux Scripts to automate the process of installing and updating a minecraft ser
 
 This also uses systemd to manage the minecraft server
 
+# Minecraft EULA
+Please be aware that these scripts do automatically set the eula.txt file to true
+
+because of this, you must have read and agree to mojang's eula which can be found [here](https://account.mojang.com/documents/minecraft_eula)
+
 # Installation
 the contents of this git repository should be copied to the root of your linux server
 
