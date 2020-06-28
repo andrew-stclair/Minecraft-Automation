@@ -1,0 +1,13 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+Type=simple
+User=minecraft
+Group=minecraft
+ExecStart=/opt/minecraft/survival/start.sh
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target
